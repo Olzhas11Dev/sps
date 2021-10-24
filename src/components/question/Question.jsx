@@ -1,7 +1,7 @@
 import { Button } from '@material-ui/core';
 import { useState, useEffect } from 'react';
 import db from '../../db';
-import Overall from '../Overall';
+import Overall from '../overall/Overall';
 import '../question/question.css';
 
 function Question() {

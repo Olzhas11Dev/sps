@@ -1,9 +1,9 @@
 .questionMain {
   width: 350px;
-  margin: auto;
+  margin: 70px auto;
 }
 .answersSection {
-  margin: 40px auto;
+  margin: 20px auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +63,25 @@
 .overall img {
   width: 90%;
   margin-top: 20px;
+}
+
+@media (max-width: 375px) {
+  .questionMain {
+    width: 310px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .questionMain {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .answersSection {
+    margin: 10px auto;
+    min-height: 370px;
+  }
+  .answer {
+    height: 20px;
+  }
 }
