@@ -39,7 +39,7 @@ const db = [
     question: "He was dancing with Rauan's sister",
     option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
     answer: 'Merik',
-    link: './img/dance.gif',
+    link: './img/dance2.gif',
   },
   {
     id: 7,
