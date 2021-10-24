@@ -1,4 +1,5 @@
 import React from 'react';
+import './overall.css';
 
 function Overall({ score }) {
   return (

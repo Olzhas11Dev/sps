@@ -1,0 +1,11 @@
+.overall {
+  width: 100%;
+  text-align: center;
+  font-size: large;
+  margin: 200px auto 0;
+}
+
+.overall img {
+  width: 90%;
+  margin-top: 20px;
+}
