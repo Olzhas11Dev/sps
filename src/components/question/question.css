@@ -1,6 +1,6 @@
 .questionMain {
   width: 350px;
-  margin: 70px auto;
+  margin: 60px auto 0;
 }
 .answersSection {
   margin: 20px auto;
@@ -68,7 +68,6 @@
 @media (max-width: 375px) {
   .questionMain {
     width: 310px;
-    margin: 40px auto;
   }
 }
 
