@@ -1,7 +1,7 @@
 const db = [
   {
     id: 1,
-    question: 'He was born in 1983 in November',
+    question: 'He was born in 1983 November',
     option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
     answer: 'Anush',
     link: './img/pets.gif',
@@ -29,10 +29,31 @@ const db = [
   },
   {
     id: 5,
+    question: 'This Band is...',
+    option: ['Queen', 'Onyx', 'The Beatles', 'Nature by Nature', 'Scorpions', 'The Beach Boys'],
+    answer: 'The Beatles',
+    link: './img/beatles.gif',
+  },
+  {
+    id: 6,
     question: "He was dancing with Rauan's sister",
     option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
     answer: 'Merik',
     link: './img/dance.gif',
+  },
+  {
+    id: 7,
+    question: 'This Movie is ...',
+    option: ['RoboCop', 'Spider Man', 'Thor', 'Avengers', 'Butterfly effect', 'Terminator'],
+    answer: 'Terminator',
+    link: './img/terminator.gif',
+  },
+  {
+    id: 7,
+    question: 'Who is this ??? ',
+    option: ['Johnny Depp', 'Dr Dre', 'Mike Tyson', '2 Pac', 'Jay-z', 'Run DMC'],
+    answer: 'Dr Dre',
+    link: './img/dre.gif',
   },
 ];
 
