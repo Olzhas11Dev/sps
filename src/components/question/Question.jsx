@@ -27,6 +27,9 @@ function Question() {
       setAnswerClass(qaData[ranNum]?.answer === elem ? 'rightAnswer' : 'wrongAnswer');
       if (qaData[ranNum]?.answer === elem) {
         setScore(score + 1);
+        setTimeout(() => {
+          handleNext();
+        }, 700);
       }
     }, 500);
     setAnswerClass('active');

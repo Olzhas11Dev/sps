@@ -15,7 +15,7 @@ const db = [
   },
   {
     id: 3,
-    question: 'His first wife was like that',
+    question: "This guy's first wife",
     option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Anush', 'Olzhik'],
     answer: 'Danik',
     link: './img/angry.gif',
@@ -30,7 +30,7 @@ const db = [
   {
     id: 5,
     question: 'This Band is...',
-    option: ['Queen', 'Onyx', 'The Beatles', 'Nature by Nature', 'Scorpions', 'The Beach Boys'],
+    option: ['Queen', 'Onyx', 'The Beatles', 'Naughty by Nature', 'Scorpions', 'The Beach Boys'],
     answer: 'The Beatles',
     link: './img/beatles.gif',
   },
@@ -49,11 +49,25 @@ const db = [
     link: './img/terminator.gif',
   },
   {
-    id: 7,
+    id: 8,
     question: 'Who is this ??? ',
     option: ['Johnny Depp', 'Dr Dre', 'Mike Tyson', '2 Pac', 'Jay-z', 'Run DMC'],
     answer: 'Dr Dre',
     link: './img/dre.gif',
+  },
+  {
+    id: 9,
+    question: 'Champ forever...',
+    option: [
+      'Ryota Murata',
+      'Maikel Perez',
+      'Puerto Princesa',
+      'Gennady Golovkin',
+      'Daniel Geale',
+      'Nabil Kassel',
+    ],
+    answer: 'Gennady Golovkin',
+    link: './img/ggg.gif',
   },
 ];
 
