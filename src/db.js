@@ -1,8 +1,7 @@
 const db = [
   {
     id: 1,
-    question:
-      'Jimmy, Robert, John and John: can you identify this rock band from the first names of their original line-up??',
+    question: 'Jimmy, Robert, John and John: can you identify this rock band ?',
     option: [
       'Deep Purple',
       'Pink Floyd',
@@ -23,8 +22,7 @@ const db = [
   },
   {
     id: 3,
-    question:
-      'Although born in New York, which artist teamed up with Dr Dre on mid 1990s smash hit California Love?',
+    question: 'Which artist teamed up with Dr Dre on mid 1990s smash hit California Love?',
     option: ['Snoop Dogg', 'Tupac Shakur', 'Ice Cube', 'Ice T', 'The Game', 'Eazy-E'],
     answer: 'Tupac Shakur',
     link: './img/2pac.gif',
