@@ -78,7 +78,7 @@ const db = [
   },
   {
     id: 10,
-    question: 'What prominent American director won an Oscar for helming Forrest Gump? forever...',
+    question: 'What prominent American director won an Oscar for helming Forrest Gump? ',
     option: [
       'Robert Zemeckis ',
       'Steven Spielberg ',
