@@ -1,31 +1,40 @@
 const db = [
   {
     id: 1,
-    question: 'He was born in 1983 November',
-    option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
-    answer: 'Anush',
-    link: './img/pets.gif',
+    question:
+      'Jimmy, Robert, John and John: can you identify this rock band from the first names of their original line-up??',
+    option: [
+      'Deep Purple',
+      'Pink Floyd',
+      'AC/DC',
+      'The Rolling Stones',
+      'Led Zeppelin',
+      'Dire Straits',
+    ],
+    answer: 'Led Zeppelin',
+    link: './img/rock.gif',
   },
   {
     id: 2,
-    question: 'He was studing in 140 school ',
-    option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
-    answer: 'Tabys',
-    link: './img/school.gif',
+    question: 'Roger Taylor is the drummer in which band? ',
+    option: ['Metallica', 'Queen', 'Iron Maiden', 'AC/DC', 'Nirvana', 'The Beatles'],
+    answer: 'Queen',
+    link: './img/drummer.gif',
   },
   {
     id: 3,
-    question: "This guy's first wife",
-    option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Anush', 'Olzhik'],
-    answer: 'Danik',
-    link: './img/angry.gif',
+    question:
+      'Although born in New York, which artist teamed up with Dr Dre on mid 1990s smash hit California Love?',
+    option: ['Snoop Dogg', 'Tupac Shakur', 'Ice Cube', 'Ice T', 'The Game', 'Eazy-E'],
+    answer: 'Tupac Shakur',
+    link: './img/2pac.gif',
   },
   {
     id: 4,
-    question: 'Because of this guy we were taking to the police',
-    option: ['Leontyev', 'Putin', 'Lenin', 'Brezhnev', 'Stalyn', 'Obama'],
-    answer: 'Lenin',
-    link: './img/police.gif',
+    question: 'Which rapper starred as Marcus “Young Caesar” Greer in Get Rich or Die Tryin’?',
+    option: ['Dr Dre', 'Will Smith', 'Craig Jones', 'Ja Rule', 'Eminem', '50 Cent'],
+    answer: '50 Cent',
+    link: './img/50cents.gif',
   },
   {
     id: 5,
@@ -36,10 +45,10 @@ const db = [
   },
   {
     id: 6,
-    question: "He was dancing with Rauan's sister",
-    option: ['Merik', 'Aleba', 'Danik', 'Tabys', 'Misha', 'Anush'],
-    answer: 'Merik',
-    link: './img/dance2.gif',
+    question: 'In The Matrix, does Neo take the ... pill?',
+    option: ['green', 'yellow', 'orange', 'red', 'blue', 'white'],
+    answer: 'red',
+    link: './img/matrix.gif',
   },
   {
     id: 7,
@@ -68,6 +77,20 @@ const db = [
     ],
     answer: 'Gennady Golovkin',
     link: './img/ggg.gif',
+  },
+  {
+    id: 10,
+    question: 'What prominent American director won an Oscar for helming Forrest Gump? forever...',
+    option: [
+      'Robert Zemeckis ',
+      'Steven Spielberg ',
+      'George Lucas',
+      'Peter Jackson ',
+      'Ridley Scott',
+      'James Cameron',
+    ],
+    answer: 'Robert Zemeckis ',
+    link: './img/fg.gif',
   },
 ];
 

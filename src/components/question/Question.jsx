@@ -47,7 +47,7 @@ function Question() {
       {!isFinal ? (
         <div className="questionMain">
           <h4>Question : {increment + 1} </h4>
-          <div>{qaData[ranNum]?.question}</div>
+          <div className="questions">{qaData[ranNum]?.question}</div>
           <div className="answersSection">
             {qaData[ranNum]?.option.map((elem, index) => {
               return (

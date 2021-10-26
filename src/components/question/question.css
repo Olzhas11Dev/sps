@@ -9,6 +9,10 @@
   flex-wrap: wrap;
   min-height: 400px;
 }
+
+.questions {
+  height: 60px;
+}
 .answer {
   display: flex;
   width: 40%;
