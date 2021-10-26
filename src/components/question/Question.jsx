@@ -21,15 +21,20 @@ function Question() {
     }
   }, [increment, qaData.length]);
 
+  const delay = () => {
+    setTimeout(() => {
+      handleNext();
+    }, 700);
+  };
   const handleChoose = (elem) => {
     setInput(elem);
     setTimeout(() => {
       setAnswerClass(qaData[ranNum]?.answer === elem ? 'rightAnswer' : 'wrongAnswer');
       if (qaData[ranNum]?.answer === elem) {
         setScore(score + 1);
-        setTimeout(() => {
-          handleNext();
-        }, 700);
+        delay();
+      } else {
+        delay();
       }
     }, 500);
     setAnswerClass('active');
