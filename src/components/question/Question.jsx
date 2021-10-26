@@ -66,7 +66,7 @@ function Question() {
               );
             })}
             <div className="picture">
-              <img src={qaData[ranNum]?.link} alt="" />
+              <img loading="lazy" src={qaData[ranNum]?.link} alt="" />
             </div>
           </div>
 
